@@ -1,5 +1,8 @@
 # General-purpose-Bandgap-Reference-avsdbgp_3v3
 
+# Schematic
+![Schematic](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Ngspice_simulations/schematic.png)
+
 # Vbgp vs Temperature
 ![Vbgp vs Temperature](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Ngspice_simulations/Results/temp_avsdbgp_3v3.cir.png?raw=true)
 
