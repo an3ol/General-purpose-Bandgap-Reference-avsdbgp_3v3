@@ -28,18 +28,14 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 # Pre Layout Performance parameters Bandgap Reference IP
 <p>&nbsp;</p>
 
-|  Parameter  |        Description            |    Min      |     Type    |    Max      |     Unit    | Condition  |
-|   :----:    |          :----:               |   :----:    |    :----:   |   :----:    |    :----:   |   :----:   |
-|    VBGP     | Output reference voltage      |             |             |             |     Volt    | T= -40 to 140C, VDD=3.3V |
-|    VBGP     | Output reference voltage      |             |             |             |     Volt    | VDD=nm 2.7V to VDD=3.6V, T=27C |
-|   TC_VBGP   | Temperature Coefficient of VBGP|            |             |             |     ppm/C   |T= -40 to 125C, VDD=3.3V |
-|   VC_VBGP   | Voltage Coefficient of VBGP   |             |             |             |      /V     |VDD=2.7V to 3.7, T=27C |
-|   T_start   |       Start up Time           |             |             |             |      us     | Vdd=3.3V, T=27C, CL=50pF|
-|     VDD     |      Supply Voltage           |             |             |             |     Volt    | T=-40C to 125C|
-|     IDD     |      Supply Current           |             |             |             |      uA     |    EN=1    |
-|     IDD     |      Supply Current           |             |             |             |      pA     |    EN=0    |
-|     RL      |      Load Resistance          |             |             |             |      Mohm   |VDD=3.3V, T=27C|
-|     CL      |      Load Capacitance         |             |             |             |      pF     |VDD=2.7V - 3.6V, T=-40C - 125C, RL=100M|
+|  Parameter  |        Description             |    Min      |     Type    |    Max      |     Unit    | Condition  |
+|   :----:    |          :----:                |   :----:    |    :----:   |   :----:    |    :----:   |   :----:   |
+|    VBGP     | Output reference voltage       |   1.20284   |    1.2056   |   1.20562   |     Volt    | T= -40 to 140C, VDD=3.3V |
+|    VBGP     | Output reference voltage       |   1.12184   |   1.20552   |   1.22796   |     Volt    | VDD=2V to VDD=4V, T=27C |
+|     VDD     |      Supply Voltage            |             |    3.3      |             |     Volt    | T=-40C to 125C|
+|     IDD     |      Supply Current            |             |    22.005   |             |      uA     |    EN=1    |
+|     IDD     |      Supply Current            |             |    37.3134  |             |      pA     |    EN=0    |
+|     RL      |      Load Resistance           |             |     100     |             |      Mohm   |VDD=3.3V, T=27C|
 <p>&nbsp;</p>
 
 # Circuit Implementation of Bandgap Reference IP 
