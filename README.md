@@ -7,13 +7,13 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 <p>&nbsp;</p>
 
 # Table of Contents
-- Pre Layout Performance parameters Bandgap Reference IP
+* Pre Layout Performance parameters Bandgap Reference IP
  
-- Circuit Implementation of Bandgap Reference IP
+* Circuit Implementation of Bandgap Reference IP
 
   - Block Diagram of Bandgap Reference IP
   - Schematic of Bandgap Reference IP
-- Pre-Layout Simulation of Bandgap Reference IP circuit using Ngspice
+* Pre-Layout Simulation of Bandgap Reference IP circuit using Ngspice
   - Ngspice
   - Simulation plots of Bandgap Reference IP circuit
   - Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
