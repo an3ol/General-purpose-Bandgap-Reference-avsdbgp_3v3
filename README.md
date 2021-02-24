@@ -48,7 +48,7 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 <p>&nbsp;</p>
 
 ## Schematic of Bandgap Reference IP
-![Schematic]()
+![Schematic](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Results/Schematic.png)
 <p>&nbsp;</p>
 
 # Pre-Layout Simulation of Bandgap Reference IP circuit
