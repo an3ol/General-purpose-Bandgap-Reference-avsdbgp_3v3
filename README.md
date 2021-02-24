@@ -41,7 +41,6 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 # Circuit Implementation of Bandgap Reference IP 
 ## Block Diagram of Bandgap Reference IP
 ![Block diagram](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Results/block_diagram.png)
-<p>&nbsp;</p>
 
 ## Schematic of Bandgap Reference IP
 <p>&nbsp;</p>
