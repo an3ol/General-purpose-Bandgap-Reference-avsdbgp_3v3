@@ -162,4 +162,4 @@ The output plot as obtained can be seen below :-
 * [Sheryl Corina Serrao](https://github.com/sherylcorina), Undergraduate Student, Mumbai University.
 
 # Contact Information
-* Anmol Purty  nmlpurty@gmail.com
+* Anmol Purty - nmlpurty@gmail.com
