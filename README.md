@@ -158,4 +158,8 @@ The output plot as obtained can be seen below :-
 
 # Acknowledgement
 
-* [Kunal Ghosh](https://github.com/kunalg123)
+* [Kunal Ghosh](https://github.com/kunalg123), Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd
+* [Sheryl Corina Serrao](https://github.com/sherylcorina), Undergraduate Student, Mumbai University.
+
+# Contact Information
+* Anmol Purty [nmlpurty@gmail.com]
