@@ -70,7 +70,7 @@ The files from this repository can be downloaded and used by the following comma
 
 >`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
 
->`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Circuits`
+>`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Pre_Layout_Simulations/Circuits/`
 <p>&nbsp;</p>
 
 ## Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
