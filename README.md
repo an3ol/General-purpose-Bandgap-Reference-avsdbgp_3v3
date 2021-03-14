@@ -156,6 +156,10 @@ The output plot as obtained can be seen below :-
 ![Enable](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/Enable_current.png?raw=true)
 <p>&nbsp;</p>
 
+## BGR Layout
+![Layout](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Layout/layout.png)
+<p>&nbsp;</p>
+
 
 # Acknowledgement
 
