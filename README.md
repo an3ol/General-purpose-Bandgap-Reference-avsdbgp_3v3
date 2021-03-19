@@ -22,6 +22,17 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
   - Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
   - Start-Up Time of Vbgp @ RL = 100M ohms plot
   - On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
+* BGR Layout
+* Post-Layout Simulation of Bandgap Reference IP circuit using Ngspice
+  - Ngspice
+  - Simulation plots of Bandgap Reference IP circuit
+  - Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+  - Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+  - Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+  - Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+  - Start-Up Time of Vbgp @ RL = 100M ohms plot
+  - On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
+ 
 
 <p>&nbsp;</p>
 
@@ -62,13 +73,16 @@ After successful installation, to invoke Ngspice type the following command on t
 
 <p>&nbsp;</p>
 
-## Simulation plots of Bandgap Reference IP circuit
+## Pre- Layout Simulation plots of Bandgap Reference IP circuit
 <p>&nbsp;</p>
 
 The files from this repository can be downloaded and used by the following commands :-
 >`sudo apt install -y git`
 
 >`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
+<p>&nbsp;</p>
+To simulate the files for Pre- Layout simulations
+<p>&nbsp;</p>
 
 >`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Pre_Layout_Simulations/Circuits/`
 <p>&nbsp;</p>
@@ -156,25 +170,30 @@ The output plot as obtained can be seen below :-
 ![Enable](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/enable_current.png)
 <p>&nbsp;</p>
 
-## BGR Layout
+# BGR Layout
 ![Layout](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/photo/BGRlayout.png)
 <p>&nbsp;</p>
-
-# Post-Layout Simulation of Bandgap Reference IP circuit
-
-
-
+The Layout for the circuit was done using Magic Layout editor tool. To observe the layout, install magic using the following commands :-
+<p>&nbsp;</p>
+>`sudo wget "http://opencircuitdesign.com/magic/archive/magic-8.3.122.tgz" `
+>`tar -xvzf magic-8.3.122.tgz`
+>`cd magic-8.3.122`
+>`sudo ./configure`
+>`sudo make`
+>`sudo make install`
+<p>&nbsp;</p>
+After successful installation, type:-
+<p>&nbsp;</p>
+>`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Layout/`
+> `magic -T ../libs/sky130A.tech BGR.mag
 <p>&nbsp;</p>
 
-## Post-Layout Simulation plots of Bandgap Reference IP circuit
+# Post-Layout Simulation plots of Bandgap Reference IP circuit
 <p>&nbsp;</p>
 
-The files from this repository can be downloaded and used by the following commands :-
->`sudo apt install -y git`
+To simulate the files for Post-Layout simulations using ngspice :-
 
->`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
-
->`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Pre_Layout_Simulations/Circuits/`
+>`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Post_Layout_Simulations/Circuits/`
 <p>&nbsp;</p>
 
 ## Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -182,7 +201,7 @@ The files from this repository can be downloaded and used by the following comma
 To observe the effect of temperature on the circuit, the temperature is varied from -40C to 140C. On the terminal window, type :-
 <p>&nbsp;</p>
 
->`ngspice temp_avsdbgp_3v3.cir`
+>`ngspice temp_avsdbgp_3v3.spice`
 <p>&nbsp;</p>
 The output plot as obtained can be seen below :-
 
@@ -200,7 +219,7 @@ The output plot as obtained can be seen below :-
 To observe the effect of Supply voltage on the circuit, the temperature is varied from 2V to 4V. On the terminal window, type :-
 <p>&nbsp;</p>
 
->`ngspice vdd_variation_avsdbgp_3v3.cir`
+>`ngspice vdd_variation_avsdbgp_3v3.spice`
 <p>&nbsp;</p>
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
@@ -213,7 +232,7 @@ The output plot as obtained can be seen below :-
 On the terminal window, type :-
 <p>&nbsp;</p>
 
->`ngspice Temp_coeff_avsdbgp_3v3.cir`
+>`ngspice Temp_coeff_avsdbgp_3v3.spice`
 <p>&nbsp;</p>
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
@@ -226,7 +245,7 @@ The output plot as obtained can be seen below :-
 On the terminal window, type :-
 <p>&nbsp;</p>
 
->`ngspice voltage_coeff_avsdbgp_3v3.cir`
+>`ngspice voltage_coeff_avsdbgp_3v3.spice`
 <p>&nbsp;</p>
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
@@ -239,7 +258,7 @@ The output plot as obtained can be seen below :-
 On the terminal window, type :-
 <p>&nbsp;</p>
 
->`ngspice Start_up_avsdbgp_3v3.cir`
+>`ngspice Start_up_avsdbgp_3v3.spice`
 <p>&nbsp;</p>
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
@@ -252,7 +271,7 @@ The output plot as obtained can be seen below :-
 On the terminal window, type :-
 <p>&nbsp;</p>
 
->`ngspice enable_current.cir`
+>`ngspice enable_current.spice`
 <p>&nbsp;</p>
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
