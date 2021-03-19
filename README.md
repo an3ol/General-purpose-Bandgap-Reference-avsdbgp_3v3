@@ -175,18 +175,26 @@ The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 The Layout for the circuit was done using Magic Layout editor tool. To observe the layout, install magic using the following commands :-
 <p>&nbsp;</p>
->`sudo wget "http://opencircuitdesign.com/magic/archive/magic-8.3.122.tgz"`
+
+>`sudo wget "http://opencircuitdesign.com/magic/archive/magic-8.3.122.tgz" `
+
 >`tar -xvzf magic-8.3.122.tgz`
->`cd magic-8.3.122`
+
+>` cd magic-8.3.122 `
+
 >`sudo ./configure`
+
 >`sudo make`
+
 >`sudo make install`
 
 <p>&nbsp;</p>
 After successful installation, type:-
 <p>&nbsp;</p>
+
 >`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Layout/`
->`magic -T ../libs/sky130A.tech BGR.mag`
+
+>` magic -T ../libs/sky130A.tech BGR.mag`
 <p>&nbsp;</p>
 
 # Post-Layout Simulation plots of Bandgap Reference IP circuit
