@@ -40,12 +40,12 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 
 # Circuit Implementation of Bandgap Reference IP 
 ## Block Diagram of Bandgap Reference IP
-![Block diagram](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Results/block_diagram.png)
+![Block diagram]()
 
 ## Schematic of Bandgap Reference IP
 <p>&nbsp;</p>
 
-![Schematic](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Results/Schematic.png)
+![Schematic]()
 <p>&nbsp;</p>
 
 # Pre-Layout Simulation of Bandgap Reference IP circuit
@@ -84,11 +84,11 @@ The output plot as obtained can be seen below :-
 
 <p>&nbsp;</p>
 
-![Vbgp vs Temperature](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/temp.png?raw=true)
+![Vbgp vs Temperature]()
 <p>&nbsp;</p>
 
 
-![Vbgp Vptat Vctat vs Temperature](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/temp_all.png?raw=true)
+![Vbgp Vptat Vctat vs Temperature]()
 <p>&nbsp;</p>
 
 ## Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
@@ -101,7 +101,7 @@ To observe the effect of Supply voltage on the circuit, the temperature is varie
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Voltage vs Vbgp](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/vdd_variation.png?raw=true)
+![Voltage vs Vbgp]()
 <p>&nbsp;</p>
 
 ## Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -114,7 +114,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Temperature coefficient of Vbgp](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/temp_coeff.png?raw=true)
+![Temperature coefficient of Vbgp]()
 <p>&nbsp;</p>
 
 # Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
@@ -127,7 +127,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Voltage coefficient of Vbgp](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/voltage_coeff.png?raw=true)
+![Voltage coefficient of Vbgp]()
 <p>&nbsp;</p>
 
 # Start-Up Time of Vbgp @ RL = 100M ohms plot
@@ -140,7 +140,7 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Start up circuit](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/Startup.png?raw=true)
+![Start up circuit]()
 <p>&nbsp;</p>
 
 # On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
@@ -153,11 +153,111 @@ On the terminal window, type :-
 The output plot as obtained can be seen below :-
 <p>&nbsp;</p>
 
-![Enable](https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/blob/main/Results/Enable_current.png?raw=true)
+![Enable]()
 <p>&nbsp;</p>
 
 ## BGR Layout
-![Layout](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Layout/layout.png)
+![Layout]()
+<p>&nbsp;</p>
+
+# Post-Layout Simulation of Bandgap Reference IP circuit
+
+
+
+<p>&nbsp;</p>
+
+## Post-Layout Simulation plots of Bandgap Reference IP circuit
+<p>&nbsp;</p>
+
+The files from this repository can be downloaded and used by the following commands :-
+>`sudo apt install -y git`
+
+>`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
+
+>`cd General-purpose-Bandgap-Reference-avsdbgp_3v3/Pre_Layout_Simulations/Circuits/`
+<p>&nbsp;</p>
+
+## Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+<p>&nbsp;</p>
+To observe the effect of temperature on the circuit, the temperature is varied from -40C to 140C. On the terminal window, type :-
+<p>&nbsp;</p>
+
+>`ngspice temp_avsdbgp_3v3.cir`
+<p>&nbsp;</p>
+The output plot as obtained can be seen below :-
+
+<p>&nbsp;</p>
+
+![Vbgp vs Temperature]()
+<p>&nbsp;</p>
+
+
+![Vbgp Vptat Vctat vs Temperature]()
+<p>&nbsp;</p>
+
+## Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+<p>&nbsp;</p>
+To observe the effect of Supply voltage on the circuit, the temperature is varied from 2V to 4V. On the terminal window, type :-
+<p>&nbsp;</p>
+
+>`ngspice vdd_variation_avsdbgp_3v3.cir`
+<p>&nbsp;</p>
+The output plot as obtained can be seen below :-
+<p>&nbsp;</p>
+
+![Voltage vs Vbgp]()
+<p>&nbsp;</p>
+
+## Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
+<p>&nbsp;</p>
+On the terminal window, type :-
+<p>&nbsp;</p>
+
+>`ngspice Temp_coeff_avsdbgp_3v3.cir`
+<p>&nbsp;</p>
+The output plot as obtained can be seen below :-
+<p>&nbsp;</p>
+
+![Temperature coefficient of Vbgp]()
+<p>&nbsp;</p>
+
+# Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+<p>&nbsp;</p>
+On the terminal window, type :-
+<p>&nbsp;</p>
+
+>`ngspice voltage_coeff_avsdbgp_3v3.cir`
+<p>&nbsp;</p>
+The output plot as obtained can be seen below :-
+<p>&nbsp;</p>
+
+![Voltage coefficient of Vbgp]()
+<p>&nbsp;</p>
+
+# Start-Up Time of Vbgp @ RL = 100M ohms plot
+<p>&nbsp;</p>
+On the terminal window, type :-
+<p>&nbsp;</p>
+
+>`ngspice Start_up_avsdbgp_3v3.cir`
+<p>&nbsp;</p>
+The output plot as obtained can be seen below :-
+<p>&nbsp;</p>
+
+![Start up circuit]()
+<p>&nbsp;</p>
+
+# On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
+<p>&nbsp;</p>
+On the terminal window, type :-
+<p>&nbsp;</p>
+
+>`ngspice enable_current.cir`
+<p>&nbsp;</p>
+The output plot as obtained can be seen below :-
+<p>&nbsp;</p>
+
+![Enable]()
 <p>&nbsp;</p>
 
 
