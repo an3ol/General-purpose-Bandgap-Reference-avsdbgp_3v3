@@ -61,7 +61,7 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 ![Schematic](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/photo/Schematic.png)
 <p>&nbsp;</p>
 
-## Downloading the files on your System
+# Downloading the files on your System
 <p>&nbsp;</p>
 
 The files from this repository can be downloaded and used by the following commands :-
