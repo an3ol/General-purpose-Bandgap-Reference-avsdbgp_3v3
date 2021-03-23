@@ -16,7 +16,7 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 * Downloading the files on your System
 * Pre-Layout Simulation of Bandgap Reference IP circuit using Ngspice
   - Ngspice
-  - Simulation plots of Bandgap Reference IP circuit
+  - Pre-Layout Simulation plots of Bandgap Reference IP circuit
   - Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
   - Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
   - Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -27,7 +27,6 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
   - Magic
   - Layout
 * Post-Layout Simulation of Bandgap Reference IP circuit using Ngspice
-  - Simulation plots of Bandgap Reference IP circuit
   - Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
   - Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
   - Temperature Coefficient of Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
