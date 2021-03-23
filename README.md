@@ -141,7 +141,7 @@ The output plot as obtained can be seen below :-
 ![Temperature coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/temp_coeff.png)
 <p>&nbsp;</p>
 
-# Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+## Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
 <p>&nbsp;</p>
 On the terminal window, type :-
 <p>&nbsp;</p>
@@ -154,7 +154,7 @@ The output plot as obtained can be seen below :-
 ![Voltage coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/vol_coeff.png)
 <p>&nbsp;</p>
 
-# Start-Up Time of Vbgp @ RL = 100M ohms plot
+## Start-Up Time of Vbgp @ RL = 100M ohms plot
 <p>&nbsp;</p>
 On the terminal window, type :-
 <p>&nbsp;</p>
@@ -167,7 +167,7 @@ The output plot as obtained can be seen below :-
 ![Start up circuit](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Pre_Layout_Simulations/Results/Startup.png)
 <p>&nbsp;</p>
 
-# On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
+## On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
 <p>&nbsp;</p>
 On the terminal window, type :-
 <p>&nbsp;</p>
@@ -266,7 +266,7 @@ The output plot as obtained can be seen below :-
 ![Temperature coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/temp_coeff.png)
 <p>&nbsp;</p>
 
-# Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
+## Voltage Coefficient of Vbgp v/s VDD [ 2V - 4V] @ RL = 100M ohms plot
 <p>&nbsp;</p>
 On the terminal window, type :-
 <p>&nbsp;</p>
@@ -279,7 +279,7 @@ The output plot as obtained can be seen below :-
 ![Voltage coefficient of Vbgp](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/Post_Layout_Simulations/Results/vol_coeff.png)
 <p>&nbsp;</p>
 
-# Start-Up Time of Vbgp @ RL = 100M ohms plot
+## Start-Up Time of Vbgp @ RL = 100M ohms plot
 <p>&nbsp;</p>
 On the terminal window, type :-
 <p>&nbsp;</p>
