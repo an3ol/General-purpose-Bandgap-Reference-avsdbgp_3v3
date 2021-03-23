@@ -61,6 +61,15 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 ![Schematic](https://raw.githubusercontent.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3/main/photo/Schematic.png)
 <p>&nbsp;</p>
 
+## Downloading the files on your System
+<p>&nbsp;</p>
+
+The files from this repository can be downloaded and used by the following commands :-
+>`sudo apt install -y git`
+
+>`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
+<p>&nbsp;</p>
+
 # Pre-Layout Simulation of Bandgap Reference IP circuit
 
 The circuit implementation of Bandgap reference IP **avsdbgp_3v3** is simulated using Ngspice to analyse its performance according to the Design Specifications provided. 
@@ -77,14 +86,7 @@ After successful installation, to invoke Ngspice type the following command on t
 
 <p>&nbsp;</p>
 
-## Downloading the files on your System
-<p>&nbsp;</p>
 
-The files from this repository can be downloaded and used by the following commands :-
->`sudo apt install -y git`
-
->`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
-<p>&nbsp;</p>
 
 ## Pre- Layout Simulation plots of Bandgap Reference IP circuit
 <p>&nbsp;</p>
