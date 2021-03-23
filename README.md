@@ -46,8 +46,8 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 |    VBGP     | Output reference voltage       |   1.19490   |   1.19756   |   1.19764   |     Volt    | T= -40 to 140C, VDD=3.3V |
 |    VBGP     | Output reference voltage       |   1.11400   |   1.19756   |   1.21933   |     Volt    | VDD=2V to VDD=4V, T=27C |
 |     VDD     |      Supply Voltage            |             |     3.3     |             |     Volt    | T=-40C to 125C|
-|     IDD     |      Supply Current            |             |    22.005   |             |      uA     |    EN=1    |
-|     IDD     |      Supply Current            |             |    37.3134  |             |      pA     |    EN=0    |
+|     IDD     |      Supply Current            |             |   21.9636   |             |      uA     |    EN=1    |
+|     IDD     |      Supply Current            |             |    24.4     |             |      pA     |    EN=0    |
 |     RL      |      Load Resistance           |             |     100     |             |      Mohm   |VDD=3.3V, T=27C|
 <p>&nbsp;</p>
 
