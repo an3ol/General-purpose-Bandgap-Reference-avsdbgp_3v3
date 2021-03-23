@@ -7,7 +7,7 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 <p>&nbsp;</p>
 
 # Table of Contents
-* Pre Layout Performance parameters Bandgap Reference IP
+* Performance parameters Bandgap Reference IP
  
 * Circuit Implementation of Bandgap Reference IP
 
