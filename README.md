@@ -13,6 +13,7 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
 
   - Block Diagram of Bandgap Reference IP
   - Schematic of Bandgap Reference IP
+* Downloading the files on your System
 * Pre-Layout Simulation of Bandgap Reference IP circuit using Ngspice
   - Ngspice
   - Simulation plots of Bandgap Reference IP circuit
@@ -23,6 +24,8 @@ For detailed information regarding the Bandgap Reference circuit click [here](ht
   - Start-Up Time of Vbgp @ RL = 100M ohms plot
   - On-Off-Current of Vbgp wrt Enable @ RL = 100M ohms plot
 * BGR Layout
+  - Magic
+  - Layout
 * Post-Layout Simulation of Bandgap Reference IP circuit using Ngspice
   - Simulation plots of Bandgap Reference IP circuit
   - Vbgp v/s Temperature [ -40C - 140C] @ RL = 100M ohms plot
@@ -64,7 +67,9 @@ The circuit implementation of Bandgap reference IP **avsdbgp_3v3** is simulated 
 <p>&nbsp;</p>
 
 ## Ngspice
+<p>&nbsp;</p>
 Ngspice is an open source mixed-signal circuit simulator. To install Ngspice on Ubuntu, open terminal window and type :-
+
 >`sudo apt-get install -y ngspice`
 
 After successful installation, to invoke Ngspice type the following command on the terminal window.
@@ -72,7 +77,7 @@ After successful installation, to invoke Ngspice type the following command on t
 
 <p>&nbsp;</p>
 
-## Pre- Layout Simulation plots of Bandgap Reference IP circuit
+## Downloading the files on your System
 <p>&nbsp;</p>
 
 The files from this repository can be downloaded and used by the following commands :-
@@ -80,6 +85,11 @@ The files from this repository can be downloaded and used by the following comma
 
 >`git clone https://github.com/an3ol/General-purpose-Bandgap-Reference-avsdbgp_3v3.git`
 <p>&nbsp;</p>
+
+## Pre- Layout Simulation plots of Bandgap Reference IP circuit
+<p>&nbsp;</p>
+
+
 To simulate the files for Pre- Layout simulations
 <p>&nbsp;</p>
 
